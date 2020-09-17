@@ -1,0 +1,96 @@
+/*
+fullstackdyna CSS content
+*/
+
+body {
+  min-width: 500px;
+}
+
+header {
+  /*background-image: url("images/background/lake.jpg");*/
+  background-color: #1E1E1E;
+}
+
+
+h1 {
+  font-family: "Brush Script MT";
+  font-size: 96px;
+  color:  #DD1C1A;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+h2 {
+	font-family: 'Courier New', serif;
+	color: #e9a54c;
+	margin: 0px;
+	font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+	font-family: cursive, 'Courier New', serif;
+	color:#C70039; 
+	margin: 0px;
+	font-size: 30px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  margin: 20px 20px 0 0;
+  width: 100%;
+  color: #e9a54c;
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+main {
+  padding-left: 20px;
+}
+
+section {
+  margin: 60px 0;
+	padding: 0 25%;
+
+}
+
+/* LISTS */
+ul,ol {
+  color: #1E1E1E
+}
+
+li {
+  font-size: 20px;
+}
+
+
+
+/* PSEUDO-CLASSES */
+a:link { color: #1F618D ; }
+a:visited { color:#e9a54c; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+/* FOR MY FOOTER */
+footer {
+  background-color:  #1E1E1E;
+  text-align: center;
+  margin: 200px 0 0 0;
+  padding: 20px 0;
+  color: #e9a54c;
+  font-size: 20px;
+}
+
+
+hr {
+  height: 4px;
+  background-color:black;
+  border: 2px solid #DD1C1A;
+}
+
+/* to align my photo */
+.aligncenter {
+    text-align: center;
+}
